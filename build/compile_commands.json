@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/karth/Music/MineAPI/build",
+  "command": "\"C:/Flex Windows/gcc/bin/c++.exe\"  @CMakeFiles/MineAPI.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/MineAPI.dir/main.cpp.obj -c C:/Users/karth/Music/MineAPI/main.cpp",
+  "file": "C:/Users/karth/Music/MineAPI/main.cpp",
+  "output": "CMakeFiles/MineAPI.dir/main.cpp.obj"
+}
+]

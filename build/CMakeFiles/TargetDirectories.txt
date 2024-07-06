@@ -1,0 +1,5 @@
+C:/Users/karth/Music/MineAPI/build/CMakeFiles/MineAPI.dir
+C:/Users/karth/Music/MineAPI/build/CMakeFiles/edit_cache.dir
+C:/Users/karth/Music/MineAPI/build/CMakeFiles/rebuild_cache.dir
+C:/Users/karth/Music/MineAPI/build/FILEAPI/CMakeFiles/edit_cache.dir
+C:/Users/karth/Music/MineAPI/build/FILEAPI/CMakeFiles/rebuild_cache.dir

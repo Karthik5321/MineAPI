@@ -1,0 +1,468 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Flex Windows/gcc/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/karth/Music/MineAPI/build/CMakeFiles/3.26.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Flex Windows/gcc/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/karth/Music/MineAPI/build/CMakeFiles/3.26.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl"
+      binary: "C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Application/GnuWin32/bin/make.exe -f Makefile cmTC_29aa4/fast && D:/Application/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_29aa4.dir/build.make CMakeFiles/cmTC_29aa4.dir/build
+        make.exe[1]: Entering directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl'
+        Building C object CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj
+        "C:/Flex Windows/gcc/bin/cc.exe"   -v -o CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:/Flex Windows/gcc/bin/cc.exe
+        Target: mingw32
+        Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.7.2 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+         c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/ C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\karth\\AppData\\Local\\Temp\\cc5GU2bA.s
+        GNU C (GCC) version 4.7.2 (mingw32)
+        	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../include"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include-fixed"
+        ignoring nonexistent directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../include
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include-fixed
+        End of search list.
+        GNU C (GCC) version 4.7.2 (mingw32)
+        	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3b27086c5ded24a8d4e25ee0782084d1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+         c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj C:\\Users\\karth\\AppData\\Local\\Temp\\cc5GU2bA.s
+        GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1
+        COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../libexec/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../lib/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+        Linking C executable cmTC_29aa4.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_29aa4.dir/objects.a
+        "C:/Flex Windows/gcc/bin/ar.exe" qc CMakeFiles/cmTC_29aa4.dir/objects.a @CMakeFiles/cmTC_29aa4.dir/objects1.rsp
+        "C:/Flex Windows/gcc/bin/cc.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_29aa4.dir/objects.a -Wl,--no-whole-archive -o cmTC_29aa4.exe -Wl,--out-implib,libcmTC_29aa4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:/Flex Windows/gcc/bin/cc.exe
+        COLLECT_LTO_WRAPPER=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.7.2 (GCC) 
+        COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../libexec/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../lib/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29aa4.exe' '-mtune=i386' '-march=i386'
+         c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_29aa4.exe c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2 -Lc:/flex windows/gcc/bin/../lib/gcc -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles/cmTC_29aa4.dir/objects.a --no-whole-archive --out-implib libcmTC_29aa4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+        make.exe[1]: Leaving directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../include]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include-fixed]
+        end of search list found
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../include] ==> [C:/Flex Windows/gcc/include]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include-fixed] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include-fixed]
+        implicit include dirs: [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include;C:/Flex Windows/gcc/include;C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Application/GnuWin32/bin/make.exe -f Makefile cmTC_29aa4/fast && D:/Application/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_29aa4.dir/build.make CMakeFiles/cmTC_29aa4.dir/build]
+        ignore line: [make.exe[1]: Entering directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl']
+        ignore line: [Building C object CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Flex Windows/gcc/bin/cc.exe"   -v -o CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Flex Windows/gcc/bin/cc.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.7.2 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/ C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\karth\\AppData\\Local\\Temp\\cc5GU2bA.s]
+        ignore line: [GNU C (GCC) version 4.7.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../include]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (GCC) version 4.7.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3b27086c5ded24a8d4e25ee0782084d1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj C:\\Users\\karth\\AppData\\Local\\Temp\\cc5GU2bA.s]
+        ignore line: [GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1]
+        ignore line: [COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_29aa4.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [Linking C executable cmTC_29aa4.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_29aa4.dir/objects.a]
+        ignore line: ["C:/Flex Windows/gcc/bin/ar.exe" qc CMakeFiles/cmTC_29aa4.dir/objects.a @CMakeFiles/cmTC_29aa4.dir/objects1.rsp]
+        ignore line: ["C:/Flex Windows/gcc/bin/cc.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_29aa4.dir/objects.a -Wl --no-whole-archive -o cmTC_29aa4.exe -Wl --out-implib libcmTC_29aa4.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Flex Windows/gcc/bin/cc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.7.2 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29aa4.exe' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_29aa4.exe c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2 -Lc:/flex windows/gcc/bin/../lib/gcc -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles/cmTC_29aa4.dir/objects.a --no-whole-archive --out-implib libcmTC_29aa4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+        ignore line: [make.exe[1]: Leaving directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-zs5vjl']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm"
+      binary: "C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Application/GnuWin32/bin/make.exe -f Makefile cmTC_460b0/fast && D:/Application/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_460b0.dir/build.make CMakeFiles/cmTC_460b0.dir/build
+        make.exe[1]: Entering directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm'
+        Building CXX object CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Flex Windows/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:/Flex Windows/gcc/bin/c++.exe
+        Target: mingw32
+        Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.7.2 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/cc1plus.exe -quiet -v -iprefix c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/ C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\karth\\AppData\\Local\\Temp\\ccyRVT9i.s
+        GNU C++ (GCC) version 4.7.2 (mingw32)
+        	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include/c++"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include/c++/mingw32"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include/c++/backward"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../include"
+        ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include-fixed"
+        ignoring nonexistent directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include/c++
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include/c++/mingw32
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include/c++/backward
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../include
+         c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include-fixed
+        End of search list.
+        GNU C++ (GCC) version 4.7.2 (mingw32)
+        	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: fdc0bc7c97f61ac24bf8edb5646b3bc3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\karth\\AppData\\Local\\Temp\\ccyRVT9i.s
+        GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1
+        COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../libexec/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../lib/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+        Linking CXX executable cmTC_460b0.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_460b0.dir/objects.a
+        "C:/Flex Windows/gcc/bin/ar.exe" qc CMakeFiles/cmTC_460b0.dir/objects.a @CMakeFiles/cmTC_460b0.dir/objects1.rsp
+        "C:/Flex Windows/gcc/bin/c++.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_460b0.dir/objects.a -Wl,--no-whole-archive -o cmTC_460b0.exe -Wl,--out-implib,libcmTC_460b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:/Flex Windows/gcc/bin/c++.exe
+        COLLECT_LTO_WRAPPER=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.7.2 (GCC) 
+        COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../libexec/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/;c:/flex windows/gcc/bin/../lib/gcc/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_460b0.exe' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_460b0.exe c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2 -Lc:/flex windows/gcc/bin/../lib/gcc -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles/cmTC_460b0.dir/objects.a --no-whole-archive --out-implib libcmTC_460b0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+        make.exe[1]: Leaving directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include/c++]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include/c++/mingw32]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include/c++/backward]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../include]
+          add: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include-fixed]
+        end of search list found
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include/c++] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include/c++/mingw32] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++/mingw32]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include/c++/backward] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++/backward]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../include] ==> [C:/Flex Windows/gcc/include]
+        collapse include dir [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/include-fixed] ==> [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include-fixed]
+        implicit include dirs: [C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++;C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++/mingw32;C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++/backward;C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include;C:/Flex Windows/gcc/include;C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Application/GnuWin32/bin/make.exe -f Makefile cmTC_460b0/fast && D:/Application/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_460b0.dir/build.make CMakeFiles/cmTC_460b0.dir/build]
+        ignore line: [make.exe[1]: Entering directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm']
+        ignore line: [Building CXX object CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["C:/Flex Windows/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Flex Windows/gcc/bin/c++.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.7.2 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/cc1plus.exe -quiet -v -iprefix c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/ C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\karth\\AppData\\Local\\Temp\\ccyRVT9i.s]
+        ignore line: [GNU C++ (GCC) version 4.7.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include/c++"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include/c++/mingw32"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/flex windows/gcc/lib/gcc/../../lib/gcc/mingw32/4.7.2/../../../../mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include/c++]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include/c++/mingw32]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include/c++/backward]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/../../../../include]
+        ignore line: [ c:\\flex windows\\gcc\\bin\\../lib/gcc/mingw32/4.7.2/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 4.7.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: fdc0bc7c97f61ac24bf8edb5646b3bc3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\karth\\AppData\\Local\\Temp\\ccyRVT9i.s]
+        ignore line: [GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1]
+        ignore line: [COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_460b0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [Linking CXX executable cmTC_460b0.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_460b0.dir/objects.a]
+        ignore line: ["C:/Flex Windows/gcc/bin/ar.exe" qc CMakeFiles/cmTC_460b0.dir/objects.a @CMakeFiles/cmTC_460b0.dir/objects1.rsp]
+        ignore line: ["C:/Flex Windows/gcc/bin/c++.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_460b0.dir/objects.a -Wl --no-whole-archive -o cmTC_460b0.exe -Wl --out-implib libcmTC_460b0.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Flex Windows/gcc/bin/c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.7.2 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
+        ignore line: [c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_460b0.exe' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/flex windows/gcc/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_460b0.exe c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2 -Lc:/flex windows/gcc/bin/../lib/gcc -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Lc:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/../../.. --whole-archive CMakeFiles/cmTC_460b0.dir/objects.a --no-whole-archive --out-implib libcmTC_460b0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/flex windows/gcc/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+        ignore line: [make.exe[1]: Leaving directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-xoofwm']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-785rec"
+      binary: "C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-785rec"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-785rec
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 D:/Application/GnuWin32/bin/make.exe -f Makefile cmTC_ec4b0/fast && D:/Application/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_ec4b0.dir/build.make CMakeFiles/cmTC_ec4b0.dir/build
+        make.exe[1]: Entering directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-785rec'
+        Building CXX object CMakeFiles/cmTC_ec4b0.dir/feature_tests.cxx.obj
+        "C:/Flex Windows/gcc/bin/c++.exe"   -std=c++11 -o CMakeFiles/cmTC_ec4b0.dir/feature_tests.cxx.obj -c C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-785rec/feature_tests.cxx
+        Linking CXX executable cmTC_ec4b0.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_ec4b0.dir/objects.a
+        "C:/Flex Windows/gcc/bin/ar.exe" qc CMakeFiles/cmTC_ec4b0.dir/objects.a @CMakeFiles/cmTC_ec4b0.dir/objects1.rsp
+        "C:/Flex Windows/gcc/bin/c++.exe" -Wl,--whole-archive CMakeFiles/cmTC_ec4b0.dir/objects.a -Wl,--no-whole-archive -o cmTC_ec4b0.exe -Wl,--out-implib,libcmTC_ec4b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ec4b0.dir/linkLibs.rsp
+        make.exe[1]: Leaving directory `C:/Users/karth/Music/MineAPI/build/CMakeFiles/CMakeScratch/TryCompile-785rec'
+        
+      exitCode: 0
+...

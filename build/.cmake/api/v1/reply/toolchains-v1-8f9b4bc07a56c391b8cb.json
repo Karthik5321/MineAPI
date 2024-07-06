@@ -1,0 +1,88 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include",
+						"C:/Flex Windows/gcc/include",
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include-fixed"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Flex Windows/gcc/bin/cc.exe",
+				"version" : "4.7.2"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++",
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++/mingw32",
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include/c++/backward",
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include",
+						"C:/Flex Windows/gcc/include",
+						"C:/Flex Windows/gcc/lib/gcc/mingw32/4.7.2/include-fixed"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Flex Windows/gcc/bin/c++.exe",
+				"version" : "4.7.2"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/Application/x86_64-12.2.0-release-win32-seh-ucrt-rt_v10-rev2/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
